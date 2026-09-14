@@ -58,7 +58,7 @@ $j = "E:\IntelliJ IDEA 2026.2.1\jbr\bin"
 
 ```
 openjdk version "25.0.3" 2026-04-21
-OpenJDK Runtime Environment JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomod
+OpenJDK Runtime Environment JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomod......OpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK......
 ```
 
 > `$j` 只在当前窗口有效，**新开窗口要重新设**。后续所有命令都依赖它。
@@ -105,7 +105,7 @@ private static final String PASSWORD = "123456";   // ← 改成你的 MySQL 口
 > 表现为 `user`、`book` 表建好了但没数据，`reader`、`borrow` 表压根不存在，GUI 打开一片空白。
 
 ```powershell
-cmd /c 'cd /d "c:\Users\32127\Desktop\BookMS\BookMS" & mysql -u root -p --default-character-set=utf8mb4 < sql\bookms_fixed.sql'
+cmd /c 'cd /d "c:\Users\user\Desktop\BookMS\BookMS" & mysql -u root -p --default-character-set=utf8mb4 < sql\bookms_fixed.sql'
 ```
 
 输入 MySQL 口令回车。**预期结果**：除口令安全警告外无任何输出。
