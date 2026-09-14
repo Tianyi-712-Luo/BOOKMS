@@ -49,7 +49,7 @@
 ### 第 0 步：打开终端，进入项目目录，设好 JDK 路径
 
 ```powershell
-cd "c:\Users\32127\Desktop\BookMS\BookMS"
+cd "c:\Users\user\Desktop\BookMS\BookMS"
 $j = "E:\IntelliJ IDEA 2026.2.1\jbr\bin"
 & "$j\java.exe" -version
 ```
@@ -58,7 +58,7 @@ $j = "E:\IntelliJ IDEA 2026.2.1\jbr\bin"
 
 ```
 openjdk version "25.0.3" 2026-04-21
-OpenJDK Runtime Environment JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomod
+OpenJDK Runtime Environment JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomodOpenJDK 运行时环境 JBR-25.0.3+9-508.16-nomod
 ```
 
 > `$j` 只在当前窗口有效，**新开窗口要重新设**。后续所有命令都依赖它。
@@ -74,13 +74,13 @@ Get-Service MySQL*
 ```
 Status   Name     DisplayName
 ------   ----     -----------
-Running  MySQL97  MySQL97
+Running  MySQL97  MySQL97运行中 MySQL97 MySQL97
 ```
 
 若不是 `Running`，用**管理员** PowerShell 启动：
 
 ```powershell
-Start-Service MySQL97
+Start-Service MySQL97启动服务 MySQL97
 ```
 
 > 服务名各机器可能不同（如 `MySQL80`、`MySQL97`），以上一步查出来的为准。
